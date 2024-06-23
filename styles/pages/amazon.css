@@ -4,6 +4,7 @@
 
 .products-grid {
   display: grid;
+  
 
   /* - In CSS Grid, 1fr means a column will take up the
        remaining space in the grid.
@@ -15,6 +16,18 @@
        repeat(...) is a special property that works with
        display: grid; */
   grid-template-columns: repeat(8, 1fr);
+}
+.product-spacer{
+  opacity: 0;
+  color: rgb(66, 170, 66);
+  margin-bottom: 7px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+}
+.nafaa{
+  opacity: 1;
 }
 
 /* @media is used to create responsive design (making the

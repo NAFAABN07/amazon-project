@@ -25,7 +25,9 @@
 .checkout-header-left-section {
   width: 150px;
 }
-
+.save-quantity-link{
+  width: 10px;
+}
 .amazon-logo {
   width: 100px;
   margin-top: 12px;

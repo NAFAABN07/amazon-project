@@ -1,4 +1,5 @@
-const products = [
+
+export const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
@@ -655,6 +656,46 @@ const products = [
       "hoodies",
       "apparel",
       "mens"
+    ]
+  },
+  {
+    "id": "id1",
+    "image": "images/products/intermediate-composite-basketball.jpg",
+    "name": "Intermediate Size Basketball",
+    "rating": {
+      "stars": 4,
+      "count": 127
+    },
+    "priceCents": 2095,
+    "keywords": [
+      "sports",
+      "basketballs"
+    ]
+  },{
+    "id": "id2",
+    "image": "images/products/intermediate-composite-basketball.jpg",
+    "name": "Intermediate Size Basketball",
+    "rating": {
+      "stars": 4,
+      "count": 127
+    },
+    "priceCents": 2095,
+    "keywords": [
+      "sports",
+      "basketballs"
+    ]
+  },{
+    "id": "id3",
+    "image": "images/products/intermediate-composite-basketball.jpg",
+    "name": "Intermediate Size Basketball",
+    "rating": {
+      "stars": 4,
+      "count": 127
+    },
+    "priceCents": 2095,
+    "keywords": [
+      "sports",
+      "basketballs"
     ]
   }
 ];

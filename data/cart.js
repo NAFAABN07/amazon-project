@@ -45,7 +45,7 @@ export function removefromcart(productId){
 } 
 
 export function updatCartQuantity(){ 
-  let y =0;
+  let y =1;
       cart.forEach((quan)=>{
          const x = quan.quantity;
          y += x;
